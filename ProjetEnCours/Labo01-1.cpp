@@ -13,6 +13,14 @@
 // Si elle retourne rien alors on indique void avant son nom
 
 
+/*ceci
+est 
+un 
+commentaire
+sur plusieurs lignes*/
+
+// Ceci est un commentaire sur une seule ligne
+
 // Avant de partir, il faut prendre ses outils pour afficher un message à l'écran
 #include <iostream>	// On doit inclure un bibliothèque qui contient plusieurs fonctions pour 
 					// saisir de l'information au clavier(i : in : input : entrée) 
@@ -20,12 +28,13 @@
 					// Sur ces périphériques les données circulent => flux : stream 
 
 
+
 void main()
 
-// Toutes instruction doit être mises entre accolades qui délimitent un bloc d'instructions
+// Toute instruction doit être mise entre accolades qui délimitent un bloc d'instructions
 // L'accolade ouvrante doit toujours être au dessus de l'accolade fermante
 {			// Ouvre le bloc d'instructions
-
+	
 	// Pour que les messages s'affichent avec les bons caractères accentués
 	setlocale(LC_ALL, "");
 
@@ -43,6 +52,6 @@ void main()
 	// de lire le message
 	system("pause");
 
-
+	
 
 }			// Ferme le bloc d'instructions
