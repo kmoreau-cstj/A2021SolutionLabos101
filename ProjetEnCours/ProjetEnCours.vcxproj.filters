@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Labo04-4While.cpp">
+    <ClCompile Include="Labo04-5Devinette.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
