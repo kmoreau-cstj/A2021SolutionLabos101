@@ -1,6 +1,6 @@
-// But : Devinette 
+// But : Devinette  
 // A la fin le programme affiche la bonne note.
-
+  
 // Auteur :  Karine Moreau
 // Date : 2021-09-16
 
