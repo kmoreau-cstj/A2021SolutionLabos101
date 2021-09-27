@@ -8,6 +8,7 @@
 
 void main()
 {
+	
 	// Déclaration des variables
 	int nb1;
 	int nb2;
@@ -73,7 +74,6 @@ void main()
 	{
 		std::cout << "Division par zéro impossible \n";
 	}
-
-
+	
 }
 

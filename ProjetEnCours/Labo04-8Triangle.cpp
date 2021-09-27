@@ -61,6 +61,49 @@ int main()
    // TODO : Le programme doit faire hauteur lignes et pour chaque ligne il doit afficher longueur *
    // TODO : Le programme utilise deux boucles for
 
+
+   for (int ligne = 1; ligne <= hauteur; ligne++)
+   {
+      for (int etoile = 1; etoile <= hauteur; etoile++)
+      {
+         if (etoile <= ligne)
+         {
+            cout << "*";
+         }
+         else
+         {
+            cout << " ";
+         }
+
+      }
+      cout << endl;
+   }
+
+   cout << endl;
+   cout << endl;
+
+
+   for (int ligne = 1; ligne <= hauteur; ligne++)
+   {
+      for (int etoile = 1; etoile <= hauteur; etoile++)
+      {
+         if (etoile >= ligne)
+         {
+            cout << "*";
+         }
+         else
+         {
+            cout << " ";
+         }
+
+      }
+      cout << endl;
+   }
+
+   cout << endl;
+   cout << endl;
+
+
    for (int ligne = 1; ligne <= hauteur; ligne++)
    {
       for (int etoile = 1 ; etoile <= hauteur; etoile++)
@@ -78,11 +121,16 @@ int main()
       cout << endl;
    }
 
+   cout << endl;
+   cout << endl;
+
+
    for (int ligne = 1; ligne <= hauteur; ligne++)
    {
-      for (int etoile = 1; etoile <= hauteur; etoile++)
+      for (int nbEtoile = 1; nbEtoile <= hauteur; nbEtoile++)
       {
-         if (etoile <= ligne)
+         // TODO : il faut faire un test pour savoir si on met un espace ou une étoile
+         if (nbEtoile >= hauteur - ligne + 1)
          {
             cout << "*";
          }
@@ -93,25 +141,10 @@ int main()
 
       }
       cout << endl;
+
    }
-
-   for (int ligne = 1; ligne <= hauteur; ligne++)
-   {
-      for (int etoile = 1; etoile <= hauteur; etoile++)
-      {
-         if (etoile <= ligne)
-         {
-            cout << "*";
-         }
-         else
-         {
-            cout << " ";
-         }
-
-      }
-      cout << endl;
-   }
-
+   cout << endl;
+   cout << endl;
 
 
    system("pause");
