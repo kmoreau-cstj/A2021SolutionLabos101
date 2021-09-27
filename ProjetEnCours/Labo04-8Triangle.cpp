@@ -78,9 +78,39 @@ int main()
       cout << endl;
    }
 
+   for (int ligne = 1; ligne <= hauteur; ligne++)
+   {
+      for (int etoile = 1; etoile <= hauteur; etoile++)
+      {
+         if (etoile <= ligne)
+         {
+            cout << "*";
+         }
+         else
+         {
+            cout << " ";
+         }
 
+      }
+      cout << endl;
+   }
 
+   for (int ligne = 1; ligne <= hauteur; ligne++)
+   {
+      for (int etoile = 1; etoile <= hauteur; etoile++)
+      {
+         if (etoile <= ligne)
+         {
+            cout << "*";
+         }
+         else
+         {
+            cout << " ";
+         }
 
+      }
+      cout << endl;
+   }
 
 
 
