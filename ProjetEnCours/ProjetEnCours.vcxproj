@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Labo04-8Triangle.cpp" />
     <ClCompile Include="Labo05-2FonctionCarre.cpp" />
     <ClCompile Include="Labo05FonctionMath.cpp" />
   </ItemGroup>
