@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Devoir04.h" />
+    <ClCompile Include="FonctionTest.cpp" />
+    <ClCompile Include="Labo05-4FonctionTest.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Devoir04.cpp" />
-    <ClCompile Include="Devoir04Test.cpp" />
+    <ClInclude Include="FonctionTest.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

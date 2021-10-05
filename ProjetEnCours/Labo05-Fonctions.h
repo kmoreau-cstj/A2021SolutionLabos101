@@ -7,3 +7,5 @@ int calculerFactorielle(int nb);
 void afficherDateLongue(int j, int m, int a);
 
 bool etrePair(int valeur);
+
+int determinerGroupeAge(int age);

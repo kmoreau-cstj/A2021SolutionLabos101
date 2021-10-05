@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Devoir04.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
+    <ClCompile Include="FonctionTest.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Labo05-4FonctionTest.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Devoir04Test.cpp">
+    <ClInclude Include="FonctionTest.h">
       <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Devoir04.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

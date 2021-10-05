@@ -24,6 +24,7 @@ int main()
    int jour;
    int mois;
    int annee;
+   int age;
 
 
 
@@ -74,7 +75,7 @@ int main()
    afficherDateLongue(jour, mois, annee);
    cout << endl;
    */
-
+   /*
    cout << "============= Test de la fonction qui dit oui ou non (vrai ou faux) le nombre passé en paramètre est pair ====================" << endl;
    // Demander à l'utilisateur un nombre entier
    cout << "Veuillez entrer un nombre entier :";
@@ -89,8 +90,12 @@ int main()
    {
       cout << nb << " est impair" << endl;
    }
+   */
 
-
+   cout << "Quel est votre age? : ";
+   cin >> age;
+   
+   cout << " Votre catégorie d'age : " << determinerGroupeAge(age) << endl;
 
   
 

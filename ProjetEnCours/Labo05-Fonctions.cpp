@@ -82,3 +82,25 @@ bool etrePair(int valeur)
 
    //return !valeur%2;
 }
+
+int determinerGroupeAge(int age)
+{
+    
+   if (age >= 0 && age <= 12)
+   {
+      return 1;
+   }
+   else if (age >= 13 && age <=17 )
+   {
+      return 2;
+   }
+   else if (age >= 18 && age <= 64)
+   {
+      return 3;
+   }
+   else
+   {
+      return 4;
+   }
+  
+}
