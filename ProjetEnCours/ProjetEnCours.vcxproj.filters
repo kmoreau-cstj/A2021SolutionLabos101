@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FonctionTest.cpp">
+    <ClCompile Include="Labo06String.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Labo05-4FonctionTest.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FonctionTest.h">
-      <Filter>Fichiers sources</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
