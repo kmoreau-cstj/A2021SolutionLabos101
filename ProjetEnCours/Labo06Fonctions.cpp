@@ -4,48 +4,28 @@
 
 bool etreNombreEntier(string clavier)
 {
-	// Premier cas qui dit que le clavier n'est pas un nombre
-	if (clavier.empty())
+	// Premier cas c'est un nombre positif
+	/*
+	if (isdigit(clavier.front()))
+		return true;
+	if (isdigit(clavier.at(1) && clavier.front() == '-'))
+		return true;
+	return false;
+	*/
+
+	
+	if (!clavier.empty() && clavier.front() >= '0' && clavier.front() <= '9')
 	{
-		return false;
+		return true;
 	}
 	else
 	{
-		// Deuxième cas : le premier caractère n'est pas un chiffre
-		if (clavier.front() < '0' || clavier.front() > '9')
-		{
-			return false;
-		}
-		else
-		{
-			
-			// troisième cas, est-ce que le nombre est un nombre négatif
-			if (clavier.size() <= 1)
-			{
-				// Cas d'erreur car pour un nombre négatif, la chaine doit être au moins de longueur 2 pour le - suivi d'un chiffre
-				return false;
-			}
-			else
-			{
-				if (clavier.front() != '-')
-				{
-					return false;
-				}
-				else
-				{
-					if (clavier.at(1) < '0' || clavier.at(1) > '9')
-					{
-						return false;
-					}
-					else
-					{
-						// La taille de la chaine est au moins 2, le premier caractère est le signe - et le deuxième caractère est un chiffre
-						return true;
-					}
-
-				}
-
-			}
+		// Deuxième cas : le nombre est négatif : ;a longueur de la chaine doit être d'au moins deux caractères
+		if (clavier.size() >=2 && clavier.front()== '-' && clavier.at(1) >= '0' && clavier[1] <='9')
+ 		{
+			return true;
 		}
 	}
+	return false;
+	
 }
