@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Labo09Vecteurs.cpp" />
+    <ClCompile Include="Labo09-1Vecteurs.cpp" />
+    <ClCompile Include="Labo09Fonctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Labo09Fonctions.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
