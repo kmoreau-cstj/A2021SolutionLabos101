@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Labo09-1Vecteurs.cpp">
+    <ClCompile Include="Labo09Fonctions.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Labo09Fonctions.cpp">
+    <ClCompile Include="Labo09-2Vecteurs.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

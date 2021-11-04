@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Labo09-1Vecteurs.cpp" />
+    <ClCompile Include="Labo09-2Vecteurs.cpp" />
     <ClCompile Include="Labo09Fonctions.cpp" />
   </ItemGroup>
   <ItemGroup>
