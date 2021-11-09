@@ -1,7 +1,7 @@
-Charron	Guy			 2	 2	 2
 Audet Nicole		30	30	28
 Boileau Claude		10	20	30
 Bonhomme Fernand	30	30	30
+Charron Guy			 2	 2	 2
 Dubreuil Lucienne	30	30	39
 Etienne Luc			10	10	10
 Fortin Marie-Noelle	20	18	18
