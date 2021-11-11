@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Labo10Fichier.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="Donnees.txt" />
     <Text Include="Resultats.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Labo10-1Fichier.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

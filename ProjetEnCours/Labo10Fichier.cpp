@@ -74,7 +74,7 @@ int main()
 
 
    // Initialiser le canal de sortie : le mode out permet de créer le fichier. S'il existe déjà, le fichier sera écrasé
-   canalSortie.open(RESULTAT, ios::out);
+   canalSortie.open(RESULTAT, ios::app);           // Pour ne pas écraser un fichier existant et pouvoir lui ajouter des données à la fin, il faut ouvrir dans le mode ios::app (append)              
    if (!canalSortie)
    {
       cerr << "Erreur : Le fichier " << RESULTAT << " n'a pas été correctement créé. Vérifiez l'espace disque disponible ou vos droits d'accès." << endl;
@@ -83,8 +83,12 @@ int main()
    }
 
 
-   // On veut afficher les double avec 2 chiffres après virgule
-   canalSortie << fixed << setprecision(2);
+   // On veut afficher les double avec 2 chiffres après virgule : Il faut juste le faire une fois après que le canal soit ouvert
+   // Fixed permet de ne plus afficher les nombres à virgule avec e puissance de 10
+   // Fixed voulant dire que la position de la virgule ne change pas. 10.123 (fixed) 1.0123 e1(scientifique)
+   // setprecision en fixed précise le nombre de chiffres après la virgule
+   // setprecision en scientifique(scientific) indique le nombre total de chiffres (partie entière + partie décimale)
+   canalSortie << fixed << setprecision(2);        // Fonctions fournies par iomanip
  
 
    // ici le canal a bien été ouvert et initialisé, il y a maintenant un canal entre le fichier sur le disque et la mémoire.
@@ -162,14 +166,15 @@ int main()
    }
 
 
-
    canalSortie << setfill('-') << setw(LARGEUR) << "-" << endl;
    canalSortie << PIED_PAGE << endl;
    canalSortie << setfill(' ') << left << setw(COL1) << CALCUL << right << setw(COL2) << moyenne1 << setw(COL3) << moyenne2 << setw(COL4) << moyenne3 << setw(COL5) << moyenne4 << endl;
-   
+   canalSortie << setfill('-') << setw(LARGEUR) << "-" << endl;
+   canalSortie << setfill('-') << setw(LARGEUR) << "-" << endl;
 
- 
-   
+   // A la fin du programme, il faut penser à fermer les canaux
+   canalEntree.close();
+   canalSortie.close();    // Force l'enregistrement des données sur le disque dur. 
 
 
 
